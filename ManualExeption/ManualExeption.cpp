@@ -8,4 +8,7 @@ int main()
 		throw 0.5;
 		cout << "pengecualian akan dieksekusi" << endl;
 	}
+	catch (int a) {
+		cout << "pengecualian akan dieksekusi" << endl;
+	}
 }
