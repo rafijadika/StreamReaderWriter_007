@@ -7,7 +7,7 @@ int main() {
 	string baris;
 	string NamaFile;
 
-	cout << "masuikan nama file : ";
+	cout << "masukan nama file : ";
 	cin >> NamaFile;
 
 	ofstream outfile;
@@ -24,5 +24,17 @@ int main() {
 	outfile.close();
 
 	ifstream infile;
-	infile.open("contohfile.txt");
+	infile.open(NamaFile + ".txt", ios::out);
+
+	cout << endl << ">= Membuka dan Membaca file " << endl;
+	if (infile.is_open())
+	{
+		while (getline(infile, baris))
+		{
+			cout << baris << '\n';
+		}
+		infile.close();
+	}
+	else cout << "unable to open file";
+	return 0;
 }
