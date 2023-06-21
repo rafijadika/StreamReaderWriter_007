@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iosfilewithpath", "iosfilew
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManualExeption", "ManualExeption\ManualExeption.vcxproj", "{08C145F2-9165-47EA-9098-42FF8FE059D2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exeptionstandart", "exeptionstandart\exeptionstandart.vcxproj", "{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{08C145F2-9165-47EA-9098-42FF8FE059D2}.Release|x64.Build.0 = Release|x64
 		{08C145F2-9165-47EA-9098-42FF8FE059D2}.Release|x86.ActiveCfg = Release|Win32
 		{08C145F2-9165-47EA-9098-42FF8FE059D2}.Release|x86.Build.0 = Release|Win32
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Debug|x64.ActiveCfg = Debug|x64
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Debug|x64.Build.0 = Debug|x64
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Debug|x86.Build.0 = Debug|Win32
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Release|x64.ActiveCfg = Release|x64
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Release|x64.Build.0 = Release|x64
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Release|x86.ActiveCfg = Release|Win32
+		{ABB6AA1D-3C6D-4BBB-98F7-C74BB00F8743}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
